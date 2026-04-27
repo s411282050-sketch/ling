@@ -76,10 +76,25 @@ body {
   color: #9ca3af;
 }
 
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+/* 強制讓所有按鈕變可愛 */
+button,
+.btn {
+  background: #a3d9a5 !important;
+  border-radius: 999px !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  color: #2f4f2f !important;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover 效果 */
+button:hover,
+.btn:hover {
+  transform: scale(1.08);
+  background: #8fcd92 !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .btn {
